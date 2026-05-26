@@ -1,16 +1,16 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Johnny´s Starlight
+description: This is Johnny Engströms portfolio
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Johnny is a technical writer and a documentation engineer.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/johnny.png
   actions:
-    - text: Example Guide
+    - text: Example Guides
       link: /guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
+    - text: Built on Starlight
       link: https://starlight.astro.build
       icon: external
       variant: minimal
@@ -18,11 +18,15 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Portfolio Segments
+
+This portfolio contains the following segments:
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Example Guides" icon="pencil">
+		To demonstrate the ability to write documentation to different personas.
+
+		[See examples](/guides/example/)
 	</Card>
 	<Card title="Change page layout" icon="document">
 		Delete `template: splash` in `src/content/docs/index.mdx` to display a
@@ -36,5 +40,10 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 	</Card>
 	<Card title="Read the docs" icon="open-book">
 		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	</Card>
+	<Card title="Traffic Analytics" icon="analytics">
+		To demonstrate the abilty to analyze users interaction with the documentation.
+
+		[See Report](/tools/litlyx/)
 	</Card>
 </CardGrid>
