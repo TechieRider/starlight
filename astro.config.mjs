@@ -28,4 +28,6 @@ export default defineConfig({
 			],
 		}),
 	],
+	site: 'https://techierider.github.io',
+	base: '/starlight'
 });
