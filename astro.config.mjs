@@ -9,6 +9,16 @@ export default defineConfig({
 			title: 'Johnny Starlight',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight'}, 
 				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/johnny-engstrom-tech/'}],
+			head: [
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://cdn.jsdelivr.net/npm/litlyx-js@latest/browser/litlyx.js',
+						defer: true,
+						'data-workspace': '67a3a5e8b9b9224b45cc0aea',
+					}
+				}
+			],
 			sidebar: [
 				{
 					label: 'Portfolio',
