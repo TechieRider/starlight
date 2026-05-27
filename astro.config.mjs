@@ -11,7 +11,7 @@ export default defineConfig({
 				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/johnny-engstrom-tech/'}],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Portfolio',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Docs-as-code', slug: 'guides/example' },
