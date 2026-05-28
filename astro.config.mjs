@@ -25,6 +25,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Docs-as-code', slug: 'guides/example' },
+						{ label: 'Case Study', slug: 'guides/casestudy'},
 					],
 				},
 				{
