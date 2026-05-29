@@ -16,7 +16,7 @@ Installing Litlyx on a documentation platform results in statistics and usage tr
 3. In the menubar, click on *Web*.
 
 4. Copy the script tag that is being displayed.
-![alt text](../../../assets/litlyx/litlyxscripttag.png)
+![An example of how the script tag](../../../assets/litlyx/litlyxscripttag.png)
 
 5. Paste the script tag in your repository in `index.html`inside the `<header>`.
 
@@ -52,7 +52,7 @@ Litlyx can generate a report of the traffic to your webpage in a PDF-format. For
 ![The different choices of analysis periods for the report](../../../assets/litlyx/litlyxreportanalysisperiod.png)
 
 4. Select a report type.
-![alt text](../../../assets/litlyx/litlyxreporttype.png)
+![The buttons for choosing report type](../../../assets/litlyx/litlyxreporttype.png)
 
 5. Click on the button *Generate Report*.
 ![The button to click to generate a report](../../../assets/litlyx/litlyxgeneratereport.png)
