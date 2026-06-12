@@ -6,7 +6,7 @@ lang: 'en-uk'
 
 # What Is Docs-as-code?
 
-Docs-as-code is a technical writing environment where the technical writer uses the same tools as the software developers. When documenting softwares, this eases the reviewing process and increases the collaboration possibilities.
+Docs-as-code is actually a technical writing environment where the technical writer uses the same tools as the software developers. When documenting softwares, this eases the reviewing process and increases the collaboration possibilities.
 
 ## Benefits
 

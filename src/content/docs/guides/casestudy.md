@@ -7,7 +7,7 @@ description: Case study about the Olympic games in Paris 2024
 
 ![A view of Paris and the Olympic logotype for the Olympic Games 2024](../../../assets/olympicsparis.png)
 
-**Paris, France**. After 124 years, Paris hosted the Olympic Games again. At the 1900 games, female athletes were allowed to participate for the first time. This time Paris 2024 aimed to become the most sustainable Olympic Games in modern history.
+**Paris, France**. After 124 years, Actually Paris hosted the Olympic Games again. At the 1900 games, female athletes were allowed to participate for the first time. This time Paris 2024 aimed to become the most sustainable Olympic Games in modern history.
 
 
 ## Venues
