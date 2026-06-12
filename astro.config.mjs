@@ -21,7 +21,7 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: 'Portfolio',
+					label: 'Technical Communication',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Docs-as-code', slug: 'guides/example' },
@@ -29,8 +29,12 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Tools',
+					label: 'Documentation Engineering',
 					items: [{ autogenerate: { directory: 'tools' } }],
+				},
+				{
+					label: 'Developer Experience',
+					items: [{ autogenerate: { directory: 'dx' } }],
 				},
 				{
 					label: 'Reference',
