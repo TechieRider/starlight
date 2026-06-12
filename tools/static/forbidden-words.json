@@ -1,0 +1,24 @@
+{
+  "forbiddenWords": [
+    "obviously",
+    "simply",
+    "easily",
+    "just",
+    "basically",
+    "clearly",
+    "literally",
+    "actually",
+    "needless to say",
+    "as you know",
+    "hack",
+    "kludge",
+    "stupid",
+    "dumb",
+    "crazy",
+    "weird",
+    "awful",
+    "horrible",
+    "bad code",
+    "broken"
+  ]
+}
