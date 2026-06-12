@@ -1,10 +1,10 @@
 import fs from "fs";
 import path from "path";
-import forbiddenWords from "./static/forbidden-words.json";
+import forbiddenWords from "../static/forbidden-words.json";
 
 
 const forbidden = forbiddenWords.forbiddenWords;
-const docsDir = "./docs";
+const docsDir = "./src/content/docs";
 
 let hasErrors = false;
 
