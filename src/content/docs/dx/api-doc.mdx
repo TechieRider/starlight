@@ -1,0 +1,119 @@
+---
+title: API-Documentation
+description: An example page for API documentation. This example describes TheSportsDB´s API.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Badge } from '@astrojs/starlight/components';
+
+# TheSportsDB API
+
+**TheSportsDB** provides a simple yet powerful REST-API for developers seeking access to sports-related information. Include a valid API key with every request. The API key can be obtained by signing up for an account on TheSportsDB.
+
+Base URL:
+
+```
+https://www.thesportsdb.com/api/v1/json/<API_KEY>/
+```
+
+**&lt;API_KEY&gt;:** Your unique API key, required for making requests.
+
+###### Authentication
+
+All API requests require a valid API key, which must be included as part of the URL in each request. The API returns an error if the key is missing or invalid. 
+Example:
+
+```
+https://www.thesportsdb.com/api/v1/json/123/searchplayers.php?t=Arsenal
+```
+
+
+## Available Endpoints
+
+### <Badge text="GET" variant="note" /> Search Players
+
+Search for players by team name.
+Endpoint
+
+```
+/searchplayers.php
+```
+
+| Parameters | Type | Description | Required/Optional |
+| -- | -- | --| -- |
+| t | String | Search term for team name | Required |
+
+* *t* stands for team
+
+#### Code Examples
+
+<Tabs>
+  <TabItem label="Node.js">
+    ```js
+    import fetch from "node-fetch";
+
+    const API_KEY = "<API_KEY>";
+    const url = `https://www.thesportsdb.com/api/v1/json/${API_KEY}/searchplayers.php?t=Arsenal`;
+
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(data);
+    ```
+  </TabItem>
+  <TabItem label="PHP cURL">
+    ```php
+      <?php
+        $apiKey = "<API_KEY>";
+        $url = "https://www.thesportsdb.com/api/v1/json/$apiKey/searchplayers.php?t=Arsenal";
+
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $data = json_decode($response, true);
+        print_r($data);
+    ```
+  </TabItem>
+  <TabItem label="Python">
+    ```python
+      import requests
+
+      API_KEY = "<API_KEY>"
+      url = f"https://www.thesportsdb.com/api/v1/json/{API_KEY}/searchplayers.php?t=Arsenal"
+
+      response = requests.get(url)
+      data = response.json()
+      print(data)
+    ```
+  </TabItem>
+</Tabs>
+
+
+#### JSON Response
+
+```json
+{
+  "player": [
+    {
+      "idPlayer": "34146370",
+      "strPlayer": "Kai Havertz",
+      "strTeam": "Arsenal",
+      "strNationality": "Germany",
+      ...
+    }
+  ]
+}
+```
+
+#### HTTP Codes
+
+| HTTP Code | Description |
+| -- | -- |
+| 200 | **OK**. Returns the data |
+| 202 | **OK**. Data is empty |
+| 400 | **Bad Request**. Double check request type. |
+| 404 | **Not Found**. Check that parameter is spelled correctly.|
+| 500 | **Internal Server Error**. Wait a few minutes and try again.|
+
