@@ -21,10 +21,8 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: 'Technical Communication',
+					label: 'Knowledge Management',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Docs-as-code', slug: 'guides/example' },
 						{ label: 'Case Study', slug: 'guides/casestudy'},
 					],
 				},
