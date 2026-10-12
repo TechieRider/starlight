@@ -1,23 +1,48 @@
-# 🌟 Johnnys Starlight Portfolio
+🌟 Johnny's Starlight Portfolio
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-The purpose of this portfolio is to display my knowledge within tech writing and documentation engineering.
+I combine 10 years of software engineering experience with a background in technical communication to solve problems involving technical information and organizational knowledge.
 
-All documentations within this portfolio are fictional but inspirered from real world solutions I have been working with.
+This portfolio demonstrates how I apply my technical background and analytical approach across three interconnected areas:
 
-## ✏️ Technical Writer
+Technical Knowledge Management — organizing, structuring, and maintaining knowledge so that information remains accessible, consistent, and useful.
 
-Inside the Technical Writer folder, there is technical writing examples I have written.
+Information Analysis — examining information environments to identify gaps, patterns, duplication, and opportunities for improvement.
 
-### Experience
+Documentation Engineering — designing and implementing structured documentation systems, automated workflows, and maintainable Docs-as-Code solutions.
 
-I have written technical documentation for 3 years, mainly within softwares.
+🧭 My Approach
 
-## 🔧 Documentation Engineering
+I see these three areas as interconnected parts of solving information problems:
 
-Inside the Tools folder, there are examples of documentation engineering I have installed in this repo.
+Analyze the current information environment to understand its challenges, identify gaps, and uncover opportunities.
 
-### Experience
+Organize information and knowledge into structures that make it easier to find, understand, maintain, and use.
 
-I have worked within software engineering for 10 years.
+Engineer sustainable systems and workflows that keep information accurate, consistent, and accessible over time.
+
+My software engineering background helps me approach information problems systematically, understand technical environments, and build practical solutions rather than focusing on content alone.
+
+🧠 Technical Knowledge Management
+
+This area focuses on how organizational and technical knowledge is structured, maintained, and made accessible.
+
+My projects explore how to identify knowledge gaps, improve information structures, and make knowledge more useful for the people who need it.
+
+🔎 Information Analysis
+
+This area focuses on understanding information environments and identifying where improvements are needed.
+
+Through practical examples, I demonstrate how to examine information, identify patterns and gaps, and turn observations into actionable recommendations.
+
+⚙️ Documentation Engineering
+
+This area focuses on the technical systems and processes behind reliable documentation.
+
+Examples include Docs-as-Code workflows, version control, automated validation, and documentation pipelines built using software engineering principles.
+
+My background includes 10 years in software engineering and 3 years working with technical documentation, primarily for software products.
+
+📂 About the Projects
+
+The projects in this portfolio are illustrative examples inspired by real-world challenges and solutions. They demonstrate my approach to analyzing problems, structuring information, and applying technical methods to improve how knowledge is created, maintained, and used.
