@@ -33,11 +33,15 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'tools' } }],
 				},
 				{
-					label: 'Developer Experience',
+					label: 'Information Analysis',
 					items: [{ autogenerate: { directory: 'dx' } }],
 				},
 				{
-					label: 'Reference',
+					label: 'Technical Knowledge Management',
+					items: [{ autogenerate: { directory: 'dx' } }],
+				},
+				{
+					label: 'Project Insights',
 					items: [{ autogenerate: { directory: 'reference' } }],
 				},
 			],
