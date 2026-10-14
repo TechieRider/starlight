@@ -38,7 +38,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Technical Knowledge Management',
-					items: [{ autogenerate: { directory: 'dx' } }],
+					items: [{ autogenerate: { directory: 'knowledge' } }],
 				},
 				{
 					label: 'Project Insights',
