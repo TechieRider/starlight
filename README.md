@@ -23,7 +23,7 @@ I see these three areas as interconnected parts of solving information problems:
 
 * My software engineering background helps me approach information problems systematically, understand technical environments, and build practical solutions rather than focusing on content alone.
 
-### 🧠 Technical Knowledge Management
+### 🧠 Knowledge Engineering
 
 This area focuses on how organizational and technical knowledge is structured, maintained, and made accessible.
 

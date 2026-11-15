@@ -9,6 +9,9 @@ export default defineConfig({
 			title: 'Johnny Starlight',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight'}, 
 				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/johnny-engstrom-tech/'}],
+			customCss: [
+				'./src/styles/layout.css'
+			],
 			head: [
 				{
 					tag: 'script',
@@ -22,11 +25,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Technical Communication',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Docs-as-code', slug: 'guides/example' },
-						{ label: 'Case Study', slug: 'guides/casestudy'},
-					],
+					items: [{ autogenerate: { directory: 'guides' } }],
 				},
 				{
 					label: 'Documentation Engineering',
@@ -37,7 +36,7 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'dx' } }],
 				},
 				{
-					label: 'Technical Knowledge Management',
+					label: 'Knowledge Engineering',
 					items: [{ autogenerate: { directory: 'knowledge' } }],
 				},
 				{

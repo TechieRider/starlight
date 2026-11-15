@@ -7,10 +7,15 @@ config:
 description: Description on pipelines and workflows within this project.
 ---
 
+import Mermaid from '../../../components/Mermaid.astro';
+
+## Pipeline Flow of This Project
+
 Pipelines are being triggered during 'git push' or deployment. These are being constructed to prevent issues to occur and to catch common mistakes.
 
-```mermaid
-flowchart TD
+<Mermaid
+  chart={`
+   flowchart TD
     A[Git Push] --> B[Github]
 
     subgraph GHA[Github Actions]
@@ -26,7 +31,8 @@ flowchart TD
     C --> F[Deployment]
     D --> F
     E --> F
-```
+  `}
+/>
 
 
 ## Further reading
