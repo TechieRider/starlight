@@ -21,11 +21,11 @@ The following sections describes my ability in content creation:
 
 This document reveals how it all started for me. My early dream in becoming a sports journalist.
 
-I actually visited Paris to watch the Olympic Games in 2024.
+I did visit Paris to watch the Olympic Games in 2024.
 
 After the games I looked at the official Sustainability Report of the Games and made a small summary of the 24 pages long report.
 
-This summary do not only express my love for sports and the Olympic Games, but my ability to summarise content and adjust the language to the reader.
+This summary do not only express my love for sports and the Olympic Games, but my ability to summarise content and modify the language to the reader.
 
 #### Links
 
