@@ -1,0 +1,8 @@
+:root {
+  --sl-content-width: 110rem;
+}
+
+.mermaid {
+  background: white;
+  border: 1px solid var(--sl-color-hairline);
+}

@@ -1,0 +1,83 @@
+---
+title: Knowledge Graph
+description: Displaying the Knowledge Graph of a Raspberry Pi 5
+lang: 'en-uk'
+---
+
+import Mermaid from '../../../components/Mermaid.astro';
+
+## What is Raspberry Pi?
+
+**Raspberry Pi** is a series of small single-board computers (SBCs) originally developed in the United Kingdom by the Raspberry Pi Foundation in collaboration with Broadcom.
+
+The Raspberry Pi was originally created to help teach computer science in schools, but gained popularity for many other uses for its low cost, high performance, compact size, and flexibility. It is now used in areas such as industrial automation, robotics, home automation, IoT devices, and hobbyist projects.
+
+## Knowledge Graph of Raspberry Pi 5
+
+<Mermaid
+  chart={`
+    flowchart TB
+    RPI["Raspberry Pi 5"]
+
+    subgraph PROCESSING["Processing"]
+        BCM["Broadcom BCM2712"]
+        CPU["Quad-core Arm Cortex-A76 CPU"]
+        GPU["VideoCore VII GPU"]
+        RAM["LPDDR4X RAM"]
+        BCM -->|contains| CPU
+        BCM -->|contains| GPU
+        RPI -->|uses| BCM
+        RPI -->|includes| RAM
+    end
+
+    subgraph IO["I/O Management"]
+        RP1["RP1 I/O Controller"]
+        USB["USB 2.0 / USB 3.0"]
+        ETH["Gigabit Ethernet"]
+        GPIO["40-pin GPIO"]
+        MIPI["MIPI Camera / Display"]
+        BCM -->|connects via PCIe 2.0 x4| RP1
+        RP1 -->|manages| USB
+        RP1 -->|manages| ETH
+        RP1 -->|manages| GPIO
+        RP1 -->|manages| MIPI
+    end
+
+    subgraph CONNECTIVITY["Connectivity"]
+        WIFI["Dual-band Wi-Fi"]
+        BT["Bluetooth 5.0 / BLE"]
+        HDMI["Dual micro-HDMI"]
+        RPI -->|provides| WIFI
+        RPI -->|provides| BT
+        RPI -->|provides| HDMI
+    end
+
+    subgraph EXPANSION["Expansion"]
+        PCIE["External PCIe 2.0 x1"]
+        HAT["M.2 HAT / Adapter"]
+        POE["PoE+ HAT"]
+        GPIO -->|supports| HAT
+        PCIE -->|can connect to| HAT
+        ETH -->|supports| POE
+    end
+
+    subgraph SOFTWARE["Software"]
+        OS["Raspberry Pi OS"]
+        FW["Firmware"]
+        SD["microSD Storage"]
+        RPI -->|runs| OS
+        OS -->|uses| FW
+        SD -->|stores| OS
+    end
+
+    subgraph POWER["Power & Cooling"]
+        USB_C["USB-C Power Input"]
+        COOL["Active Cooler"]
+        RPI -->|powered through| USB_C
+        RPI -->|can use| COOL
+    end
+  `}
+/>
+*This diagram displays the hardware connectivity through the system. 6 categorigies of hardware functions connects to the Raspberry Pi:*
+*Processing, Connectivity, I/O Management, Power & Cooling, Software and Expansion.*
+
